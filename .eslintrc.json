@@ -1,0 +1,9 @@
+{
+  "extends": "next/core-web-vitals",  // This includes Next.js default ESLint rules
+  "rules": {
+    "no-unused-vars": "off",  // Disabling the 'no-unused-vars' rule
+    "react/no-unescaped-entities": "off",  // Disable this rule
+    "react/jsx-uses-react": "off",  // If you are using React 18+ and don't need this rule
+    "react/react-in-jsx-scope": "off"  // React 17+ doesn't require `React` in scope anymore
+  }
+}
